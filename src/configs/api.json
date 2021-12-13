@@ -1,0 +1,5 @@
+{
+    "GET_DEBTS_URL": "https://my-json-server.typicode.com/druska/trueaccord-mock-payments-api/debts",
+    "GET_PAYMENT_PLANS_URL": "https://my-json-server.typicode.com/druska/trueaccord-mock-payments-api/payment_plans",
+    "GET_PAYMENTS_URL": "https://my-json-server.typicode.com/druska/trueaccord-mock-payments-api/payments"
+}
