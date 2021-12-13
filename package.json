@@ -1,0 +1,41 @@
+{
+  "name": "trueaccord-challenge",
+  "version": "1.0.0",
+  "description": "A simple API to handle the debt collection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "dev": "nodemon --exec babel-node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx|mjs)$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "jsonlines": "^0.1.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.4",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15"
+  }
+}
