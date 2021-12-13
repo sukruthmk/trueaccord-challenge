@@ -13,6 +13,8 @@ Run in dev environment
 npm run dev
 ```
 
+navigate to this url to see the result http://localhost:3000/debts
+
 ## Running tests
 ```sh
 npm run test
